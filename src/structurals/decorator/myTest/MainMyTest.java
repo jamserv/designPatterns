@@ -1,9 +1,9 @@
-package creational.decorator.myTest;
+package structurals.decorator.myTest;
 
-import creational.decorator.BaseCofee;
-import creational.decorator.CacaoCofee;
-import creational.decorator.Cofee;
-import creational.decorator.MilkCofee;
+import structurals.decorator.BaseCofee;
+import structurals.decorator.CacaoCofee;
+import structurals.decorator.Cofee;
+import structurals.decorator.MilkCofee;
 import java.util.ArrayList;
 
 /**

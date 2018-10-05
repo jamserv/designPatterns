@@ -1,4 +1,4 @@
-package creational.decorator;
+package structurals.decorator;
 
 /**
  *

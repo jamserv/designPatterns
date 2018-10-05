@@ -1,6 +1,6 @@
-package creational.decorator.myTest;
+package structurals.decorator.myTest;
 
-import creational.decorator.Cofee;
+import structurals.decorator.Cofee;
 import java.util.List;
 
 /**

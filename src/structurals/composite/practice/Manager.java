@@ -17,7 +17,7 @@ public class Manager implements Employee {
     public Manager(String name, double salary) {
         this.name = name;
         this.salary = salary;
-    }        
+    }
 
     @Override
     public void add(Employee employee) {

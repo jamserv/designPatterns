@@ -18,7 +18,7 @@ public class ClientPractice {
         Manager generalManager = new Manager("Mark", 50000);
         generalManager.add(emp3);
         generalManager.add(manager);
-        
+
         generalManager.print();
     }
 }
