@@ -1,4 +1,4 @@
-package structural.command;
+package behavioral.command;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,7 +14,7 @@ public class ClientCommand {
         tasks.add(mult);
         
         Invoker invoker = new Invoker(Arrays.asList(suma, mult));
-        invoker.executeSingleCommand();
-        //invoker.executeAllCommands();
+        //invoker.executeSingleCommand();
+        invoker.executeAllCommands();
     }
 }

@@ -1,4 +1,4 @@
-package structural.command;
+package behavioral.command;
 
 import java.util.List;
 
