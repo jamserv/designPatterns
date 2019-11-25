@@ -7,7 +7,7 @@ package structural.adapter.practice.one;
 public class ServiceResponseJsonAdapter implements ServiceResponseAdaptable {
 
      @Override
-    public String buildResponse(ServerResponse serverResponse) {
+    public String buildResponse(ServerResponseModel serverResponse) {
         return "{\"uid\": \"" + serverResponse.getUid() + "\",\"status\":\"" + serverResponse.getStatus() + "\"}";
     }
 }

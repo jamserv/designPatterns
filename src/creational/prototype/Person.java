@@ -9,9 +9,6 @@ public class Person implements Cloneable {
     private String id;
     private String name;
 
-    public Person() {
-    }
-
     public Person(String id, String name) {
         this.id = id;
         this.name = name;
@@ -36,6 +33,6 @@ public class Person implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return new Person(id, name);
-    }        
+    }
 
 }

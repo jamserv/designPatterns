@@ -6,5 +6,5 @@ package structural.adapter.practice.one;
  */
 public interface ServiceResponseAdaptable {
 
-    public String buildResponse(ServerResponse content);
+    public String buildResponse(ServerResponseModel content);
 }

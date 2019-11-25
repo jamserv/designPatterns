@@ -9,9 +9,9 @@ import java.util.UUID;
 public class ClientAdapter {
 
     public static void main(String[] args) {
-        ServerResponse serverResponse = new ServerResponse(UUID.randomUUID().toString().toUpperCase(), "OK");        
+        ServerResponseModel serverResponse = new ServerResponseModel(UUID.randomUUID().toString().toUpperCase(), "OK");        
 
-        ServiceResponse serviceResponse = new ServiceResponse();
+        XMLServiceResponse serviceResponse = new XMLServiceResponse();
         String xmlReponse = serviceResponse.buildResponse(serverResponse);
         System.out.println(xmlReponse);
 

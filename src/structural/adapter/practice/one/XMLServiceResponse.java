@@ -4,7 +4,7 @@ package structural.adapter.practice.one;
  *
  * @author janez
  */
-public class ServiceResponse implements ServiceResponseAdaptable {
+public class XMLServiceResponse implements ServiceResponseAdaptable {
 
     /**
      *
@@ -12,7 +12,7 @@ public class ServiceResponse implements ServiceResponseAdaptable {
      * @return
      */
     @Override
-    public String buildResponse(ServerResponse serverResponse) {
+    public String buildResponse(ServerResponseModel serverResponse) {
         return "<uid>" + serverResponse.getUid() + "</uid><status>" + serverResponse.getStatus() + "</status>";
     }
 }
