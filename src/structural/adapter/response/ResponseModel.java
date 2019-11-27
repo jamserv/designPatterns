@@ -1,15 +1,15 @@
-package structural.adapter.practice.one;
+package structural.adapter.response;
 
 /**
  *
  * @author janez
  */
-class ServerResponseModel {
+class ResponseModel {
 
     private String uid;
     private String status;
 
-    public ServerResponseModel(String uid, String status) {
+    public ResponseModel(String uid, String status) {
         this.uid = uid;
         this.status = status;
     }

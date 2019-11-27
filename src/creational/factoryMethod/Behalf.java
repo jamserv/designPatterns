@@ -15,7 +15,7 @@ public class Behalf implements Processor {
 
     @Override
     public Map<String, Object> pay(Map<String, Object> pay) {
-        pay.put("response_code", "-1001");
+        pay.put("response_code", "0");
         pay.put("response_message", "Rejected: Entity don't avaiable");
         return pay;
     }

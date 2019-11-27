@@ -13,7 +13,7 @@ public class CacheProperties {
     static CacheProperties instance;
     static private Map<String, String> properties;
 
-    static CacheProperties getInstance() {
+    public static CacheProperties getInstance() {
         if (instance == null) {
             System.out.println(" -- crea instance -- ");
             instance = new CacheProperties();

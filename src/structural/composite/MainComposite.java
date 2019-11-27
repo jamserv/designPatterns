@@ -10,7 +10,8 @@ public class MainComposite {
 
     public static void main(String[] args) {
         new MainComposite().loadAllShapes(
-                new CompoundShape(new Dot(99, 84))
+                new CompoundShape(new Dot(98, 84)),
+                new Dot(65, 45)
         );
     }
 
