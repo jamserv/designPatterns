@@ -1,6 +1,5 @@
-package prototype;
+package creational.prototype;
 
-import creational.prototype.Person;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.junit.Assert;
@@ -13,7 +12,7 @@ import org.junit.Test;
 public class PrototipeTets {
 
     @Test
-    public void hello() {
+    public void init() {
         try {
             Person person1 = new Person("9984", "isabel");
             Person person2 = (Person) person1.clone();

@@ -1,9 +1,6 @@
-package factoryMethod;
+package creational.factoryMethod;
 
 
-import creational.factoryMethod.Processor;
-import creational.factoryMethod.ProcessorBase;
-import creational.factoryMethod.ProcessorFactory;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.HashMap;
@@ -19,7 +16,7 @@ import org.junit.Test;
 public class FactoryMethodTest {
 
     @Test
-    public void hello() {
+    public void init() {
         ProcessorBase factory = new ProcessorFactory();
         List<Processor> processors = factory.processors();
         for (Processor processor : processors) {

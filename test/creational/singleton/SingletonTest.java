@@ -1,11 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package singleton;
+package creational.singleton;
 
-import creational.singleton.CacheProperties;
 import java.util.Map;
 import java.util.UUID;
 import org.junit.Assert;
@@ -18,7 +12,7 @@ import org.junit.Test;
 public class SingletonTest {
 
     @Test
-    public void run() {
+    public void init() {
         CacheProperties properties = CacheProperties.getInstance();
         for (int index = 0; index < 5; index++) {            
             Map<String, String> props = properties.getProperties();

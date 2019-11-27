@@ -52,34 +52,34 @@ public class Product {
         this.stock = stock;
     }
 
-    static class ProductBuilder {
+    public static class ProductBuilder {
 
         private String id;
         private String name;
         private BigDecimal price;
         private Double stock;
 
-        ProductBuilder id(String id) {
+        public ProductBuilder id(String id) {
             this.id = id;
             return this;
         }
 
-        ProductBuilder name(String name) {
+        public ProductBuilder name(String name) {
             this.name = name;
             return this;
         }
 
-        ProductBuilder price(BigDecimal price) {
+        public ProductBuilder price(BigDecimal price) {
             this.price = price;
             return this;
         }
 
-        ProductBuilder stock(Double stock) {
+        public ProductBuilder stock(Double stock) {
             this.stock = stock;
             return this;
         }
 
-        Product build() {
+        public Product build() {
             return new Product(this);
         }
 
